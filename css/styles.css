@@ -11137,3 +11137,45 @@ div.caption-content {
   text-align: center;
   margin-bottom: 30px;
 }
+/* For small phones */
+@media screen and (max-width: 480px) {
+  div.caption-content {
+    position: relative;
+    top: 5px;
+}
+}
+/* For tablets */
+@media screen and (max-width: 1399px) {
+  #chow-img {
+    height: 313px;
+}
+#rejoiz-img {
+  height: 349px;
+}
+}
+@media screen and (max-width: 1199px) {
+  #luma-img {
+    height: 314px;
+}
+#omnifood-img {
+  height: 349px;
+}
+div.caption-content {
+  position: relative;
+  top: 69px;
+  right: 50px;
+}
+}
+@media screen and (max-width: 1023px) {
+  div.caption-content {
+    position: relative;
+    top: 69px;
+}
+}
+@media screen and (max-width: 991px) {
+  div.caption-content {
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+}
