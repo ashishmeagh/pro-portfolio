@@ -61,19 +61,29 @@
               Innovative web developer delivering
               cutting-edge solutions, leveraging the latest technologies and
               industry best practices to create exceptional user experiences.
-              <!-- <a href="https://unsplash.com/">Unsplash</a>
-              ! -->
             </p>
-            <!-- <a class="btn btn-dark btn-xl" href="#services">What can i do</a> -->
-            
           </div>
         </div>
       </div>
 
       <div class="card card-body bg-light  skills-container">
-        
         <div class="row gx-4 gx-lg-5 skills">
           <h2 id = "skill-head">Top Skills</h2>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skill-section">
+            <h4>Java/J2EE</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 90%"></div>
+            </div>
+            <h4>Spring</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 85%"></div>
+            </div>
+            <h4>Hibernate</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width: 80%"></div>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skill-section">
             <h4>ReactJS</h4>
             <div class="progress mb-3">
@@ -88,6 +98,7 @@
               <div class="progress-bar bg-success" style="width: 90%"></div>
             </div>
           </div>
+          
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skill-section">
             <h4>Laravel</h4>
             <div class="progress mb-3">
@@ -103,25 +114,22 @@
           </div>
           </div>
           
-  <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skill-section">
-    <h4>HTML5</h4>
-    <div class="progress mb-3">
-      <div class="progress-bar bg-success" style="width: 100%"></div>
-    </div>
-    <h4>CSS3</h4>
-    <div class="progress mb-3">
-      <div class="progress-bar bg-success" style="width: 100%"></div>
-    </div>
-    <h4>JavaScript</h4>
-    <div class="progress mb-3">
-      <div class="progress-bar bg-success" style="width: 90%"></div>
-    </div>
-  </div>
-          
-          
+      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 skill-section">
+        <h4>HTML5</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 100%"></div>
         </div>
+        <h4>CSS3</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 100%"></div>
         </div>
-        
+        <h4>JavaScript</h4>
+        <div class="progress mb-3">
+          <div class="progress-bar bg-success" style="width: 90%"></div>
+        </div>
+      </div>
+      </div>
+      </div>
     </div>
     </section>
     <!-- Services-->
@@ -159,39 +167,60 @@
               <i class="fas fa-heart"></i>
             </p>
           </div>
-          <!-- <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3"
-              ><i class="icon-mustache"></i
-            ></span>
-            <h4><strong>Question</strong></h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
-          </div> -->
         </div>
       </div>
     </section>
-    <!-- Callout-->
-    <!-- <section class="callout">
-      <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mx-auto mb-5">
-          Welcome to
-          <em>your</em>
-          next website!
-        </h2>
-        <a
-          class="btn btn-primary btn-xl"
-          href="https://startbootstrap.com/theme/stylish-portfolio/"
-          >Download Now!</a
-        >
-      </div>
-    </section> -->
+    
     <!-- Portfolio-->
     <section class="content-section" id="portfolio">
       <div class="container px-4 px-lg-5">
         <div class="content-section-heading text-center">
           <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
+          <h2 class="mb-5"> Projects</h2>
         </div>
         <div class="row gx-0">
+          <div class="col-lg-6">
+            <a
+              class="portfolio-item"
+              href="https://www.libertymutual.com/"
+              target="_blank"
+            >
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Liberty Mutual</div>
+                  <p class="mb-0 content">
+                   Liberty Mutual provides personal insurance products for home, auto and property-casualty through their online platform. Created using Java EE, ReactJS, Next JS, MongoDB and Azure.
+                  </p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                id="liberty-img"
+                src="./images/libtery-mutual-logo.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+
+          <div class="col-lg-6">
+            <a
+              class="portfolio-item"
+              href="https://www.spencersonline.com/"
+              target="_blank"
+            >
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Spencer's</div>
+                  <p class="mb-0 content">
+                    It is the go-to destination for the latest trends in clothing and fashion. Spencer's is an e-commerce platform built using
+                    Laravel, ReactJS, and NextJS.
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="./images/Spencers-img.jpeg" alt="..." id="spencer-img" />
+            </a>
+          </div>
+        <!-- Second row -->
           <div class="col-lg-6">
             <a
               class="portfolio-item"
